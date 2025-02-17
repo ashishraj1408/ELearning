@@ -1,0 +1,113 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff7f7f7;
+}
+
+.custom-nav .custom-nav-item a {
+  color: #fff7f7f7 !important;
+  font-weight: bold;
+}
+
+.custom-nav-item:hover {
+  background-color: #1956daca;
+  border: solid #1956daca 1px;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.921);
+}
+/* .login{
+  position: relative;
+  left: 80%;
+}
+.signup{
+  position: relative;
+  left: 80%;
+} */
+
+.carousel-inner{
+  width: 100%;
+  height: 100%;
+}
+ .vid-content {
+  /* color: #131111; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  text-align: center;
+} 
+
+.buttongs{
+  background-image: linear-gradient(to bottom right, #751c52, #e04c52);
+  color: white;
+}
+.banner{
+  width: 100%;
+
+}
+ .banner img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+
+}
+
+
+/* .bottom-banner:first-child {
+  padding-left: 50px;
+} */
+.social{
+  background-image: linear-gradient(to bottom right, #751c52, #e04c52);
+}
+a.social-hover:hover {
+  padding: 5px 100px;
+  text-decoration: none;
+  background-color: rgb(95, 93, 93);
+}
+.info{
+  background-image: linear-gradient(to bottom right, #25364c, #2c394a);
+}
+
+/* .stripe {
+  background-image: linear-gradient(240deg, #ed213a, #93291e);
+  padding: 3rem;
+  height: 13rem;
+  margin-top: 4rem;
+  transform: rotate(10deg);
+  z-index: -5;
+} */
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .my-content,
+  .banner,
+  .stripe 
+  {
+    display: none;
+  } /* hide it on small screens */
+
+  .vid-content{
+    top: 30%;
+  
+    
+  }
+  .custom-nav-item a {
+    padding: 10px 5px;
+    background-image: linear-gradient(to bottom right, #751c52, #e04c52);
+    font-size: 10px;
+  }
+
+  .custom-nav-item:hover {
+    background-color: none !important;
+    border: none !important;
+    border-radius: none !important;
+
+  }
+  
+}
